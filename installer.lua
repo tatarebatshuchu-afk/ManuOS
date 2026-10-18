@@ -61,7 +61,8 @@ local function run_file(path)
 end
 
 local function print_help()
-  print([[ManuOS shell commands:
+  print([=[
+ManuOS shell commands:
   help                Show this help
   ls [path]           List directory (default: /)
   run <file>          Run a Lua file
@@ -69,7 +70,7 @@ local function print_help()
   hello               Run the hello demo
   reboot              Reboot the computer
   exit                Exit the shell (will return to bootloader)
-]])
+]=])
 end
 
 print('ManuOS shell. Type help for commands.')
